@@ -6,9 +6,9 @@ const extendHex = (shortHex) => {
   const green = shortHex[1];
   const blue = shortHex[2];
 
-  const fullHex = `#${red}${red}${green}${green}${blue}${blue}`;
+  const Hex = `#${red}${red}${green}${green}${blue}${blue}`;
 
-  return fullHex;
+  return Hex;
 };
 
 // Do not change the code below.
